@@ -11,5 +11,7 @@ ggplot(datos_orientacion,aes(x=orientacion,y=f_orientacion,fill=genero))+
   ylab("Frecuencia")+
   xlab("Orientación sexual")+
   labs(fill="Género")+
-  geom_text(data = NULL, x = 2, y = 300, label = "N=752")
+  geom_text(data = NULL, x = 2, y = 300, label = "N=752")+
+  ggtitle("Orientación sexual de mis seguidores")+
+  theme(plot.title=element_text( hjust=1, vjust=0.5, face='bold'))
 
