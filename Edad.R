@@ -23,5 +23,5 @@ ggplot()+
   coord_equal()+
   scale_fill_manual(values=met.brewer("Klimt", 4))+
   ggtitle("Edad de mis seguidores")+
-  theme(plot.title=element_text( hjust=1, vjust=0.5, face='bold'))
+  theme(plot.title=element_text( hjust=0.5, vjust=0.5, face='bold'))
   
