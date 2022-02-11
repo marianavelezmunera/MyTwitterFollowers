@@ -14,7 +14,6 @@ ggplot(datos_genero,aes(x="",y=Frecuencia,fill=Genero))+
   ggtitle("Género de mis seguidores")+
   theme(plot.title=element_text( hjust=1, vjust=0.5, face='bold'))+
   scale_fill_manual(values=met.brewer("Klimt", 3))+
-  geom_text(data = NULL, x = 1.9, y = 105, label = "N=752")+
   geom_text(data = NULL, x = 1, y = 10, label = "16")+
   geom_text(data = NULL, x = 1, y = 200, label = "494")+
   geom_text(data = NULL, x = 0, y = 200, label = "242")
